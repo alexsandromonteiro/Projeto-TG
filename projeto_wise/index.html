@@ -1,0 +1,61 @@
+<!--
+    Creditos pela foto, colocar no footer ou uma página com créditos:
+    <a href="https://www.freepik.com/free-photo/restaurant-interior_1243339.htm#query=restaurant&position=0&from_view=keyword&track=sph">Image by evening_tao</a> on Freepik
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        body[data-aos-duration='2000'] [data-aos],
+        [data-aos][data-aos][data-aos-duration='2000'] {
+            transition-duration: 2000ms;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="mascara">
+            <nav class="navbar" style="background-color: none;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="">
+                        <img src="./images/wise.png" alt="Logo" width="40" height="40"
+                            class="d-inline-block rounded-circle">
+                        <spam class="ms-2 text-light">Wise</spam>
+                    </a>
+                    <a href="adm/login.php">
+                        <button class="btn btn-dark">Área do Administrador</button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <div data-aos="zoom-in" class="text-center text-light position-absolute top-50 start-50 translate-middle">
+            <h1 class="display-1">Wise</h1>
+
+            <div data-aos="zoom-in-up" data-aos-duration="2000">
+                <h3 class="display-5">QR Code Soluction</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/bootstrap.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

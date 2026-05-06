@@ -1,0 +1,110 @@
+.carrinho-button {
+    background-color: white;
+    width: 95vw;
+    border: 1px solid black;
+}
+
+.pedido-quantidade-button {
+    background-color: white;
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.mascara {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+}
+
+.trash {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    transition: .2s ease-out;
+    right: -30px;
+    top: 20px;
+    color: #fff;
+    background: #ff0033;
+    justify-content: flex-end;
+    z-index: -1;
+  }
+
+  .trash:hover {
+    transform: translateX(40px);
+  }
+
+  .trash-icon {
+    height: 130px;
+  }
+
+.background {
+    background-image: url('../images/restaurant-interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.adm-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#enviar-pedido {
+    background-color: white;
+    height: 332px;
+    width: 80vw;
+    text-align: center;
+    border: 1px solid black;
+    display: none;
+}
+
+.enviar-pedido-button {
+    height: 58px;
+    width: 136px;
+    border: 1px solid black;
+}
+
+
+
+textarea {
+    height: 100px;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.busca-lanche {
+    width: 80vw;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #qrcode,
+    #qrcode * {
+        visibility: visible;
+    }
+
+    #qrcode {
+        position: fixed;
+    }
+}
+
+#input {
+    width: 300px;
+}
